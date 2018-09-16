@@ -1,0 +1,44 @@
+.linkStyle {
+  border: 0;
+  background: white;
+  font-size: 0.75rem;
+  font-weight: bold;
+  color: #4169e1e6;
+}
+
+.notificationMain{
+  position: absolute;
+  right: 2rem;
+  border-left: 1px solid #8080802b;
+  border-right: 1px solid #8080802b;
+  border-top: 5px solid #8080808f;
+  border-bottom : 2px solid #8080802b;
+  background-color: white;
+  margin-top: 0.25rem;
+  min-width: 20rem;
+  max-width: 20rem;
+  max-height: 85vh;
+  overflow-y: auto;
+}
+
+@media only screen and (max-width: 600px) {
+  .notificationMain{
+    min-width: 15rem;
+    max-width: 17.5rem;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .notificationMain{
+    min-width: 85vw;
+    max-width: 85vw;
+    right:1.5rem;
+  }
+}
+.summaryLineStyle{
+  margin: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: inherit;
+}
